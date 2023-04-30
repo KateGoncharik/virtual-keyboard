@@ -30,3 +30,7 @@
     align-items: center;
     justify-content: center;
 }
+.title {
+    font: 400 20px Arial;
+    color: darkgray;
+}
