@@ -2,16 +2,41 @@
     background-color: bisque;
     width: 300px;
     height: 30px;
+    margin: 0 auto;
+}
+
+.keyboard {
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #8e8383;
+    border-radius: 5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .key {
-    width: 30px;
+    width: 45px;
     height: 30px;
     background-color: #8e8383;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2px;
 }
+.key-button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font: 500 14px Arial;
+    border: 2px groove black ;
+    padding: 10px;
+}
+
+.key-block {
+    display: flex;
+}
+
 .key:hover {
     background-color: #ad7575;
     transition: 0.3s;
@@ -29,8 +54,29 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 .title {
     font: 400 20px Arial;
     color: darkgray;
+    width: 300px;
+    line-height: 25px;
+    margin: 0 auto;
 }
+
+.textarea {
+    width: 50%;
+    height: 300px;
+    border: 2px dashed #ad7575;
+    margin: 5% 25%;
+}
+.input {
+    font: 400 25px Arial;
+    color: purple;
+}
+/* keys */
+.enter {
+    width: 45px;
+    height: 30px;
+}
+
