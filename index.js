@@ -41,7 +41,7 @@ createKeys(lowerCase);
 
 document.addEventListener('click', (event) => {
   if (event.target.className === buttonClass) {
-    let textarea = document.querySelector('.textarea');
+    const textarea = document.querySelector('.textarea');
     textarea.value += event.target.dataset.value;
   }
 });
